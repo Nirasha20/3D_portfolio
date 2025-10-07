@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to='/' className='flex items-center gap-2' onClick={() => window.scrollTo(0, 0)}> 
           <img src={logonew} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>My Portfolio</p>
+          <p className='text-white text-[18px] font-bold cursor-pointer'>Nirasha De Mel <span className='sm:block hidden'>| My Portfolio </span></p>
         </Link>
       </div>
     </nav>
