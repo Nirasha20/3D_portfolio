@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  ballerina,
   meta,
   starbucks,
   tesla,
@@ -111,6 +112,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "ballerina",
+    icon: ballerina,
   },
 ];
 
