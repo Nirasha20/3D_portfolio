@@ -141,10 +141,15 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2024 - 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "💇‍♀️Simplifies salon appointment booking, rescheduling, and cancellations for customers.",
+      "💅Helps salon owners manage staff, services, and daily bookings efficiently.",
+      "🛡️Enables admins to verify salons, monitor activity, and handle user complaints for platform reliability.",
+      "🔔Enhances overall user experience through notifications, reviews, and location-based salon discovery.",
+    ],
+    boxes: [
+      { title: "Next.js" },
+      { title: "MongoDB" },
+      { title: "TypeScript" },
     ],
   },
   {
