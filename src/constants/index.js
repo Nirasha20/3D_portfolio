@@ -116,24 +116,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "SafeRoute",
+    company_name: "Road Safety Web Application",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "🚗 Developed a web app enabling users to report and view road hazards (e.g., potholes, accidents, construction) with real-time Google Maps integration.",
+      "⚙️ Implemented a robust tech stack using Next.js 14 (TypeScript) for the frontend, Ballerina + PostgreSQL for the backend, and JWT-based authentication for secure access.",
+      "📍 Integrated intelligent route planning that combines traffic data and community-reported hazards to suggest safer travel routes.",
+      "🧭 Built an administrative dashboard for the Road Development Authority (RDA) to manage reports, monitor trends, and mark hazards as resolved.",
+      "🌐 Enhanced user engagement with features like image uploads, report comments, notifications, and auto-deletion of temporary hazard reports.",
+    ],
+    boxes: [
+      { title: "Next.js" },
+      { title: "Ballerina" },
+      { title: "PostgreSQL" },
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "SalonBooking.lk",
+    company_name: "Salon Booking Web Application",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2024 - 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
