@@ -153,29 +153,41 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Aquatica",
+    company_name: "Automated Home Aquarium Management System",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2023 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "🐠 Automates essential aquarium care including feeding, water refilling, and lighting control.",
+      "🌡️ Monitors water parameters in real-time using sensors for temperature and clarity.",
+      "🍽️ Automated feeding system ensures timely, balanced feeding for fish health.",
+      "💧 Water clarity management automatically refills the tank when turbidity increases.",
+      "📱 Mobile app integration provides real-time updates on temperature and water conditions for easy monitoring.",
+    ],
+    boxes: [
+      { title: "ESP32" },
+      { title: "C++ (Arduion)" },
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Portfolio",
+    company_name: "Personal 3D Portfolio Website",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "🎨 Learned to create and animate 3D models using ThreeJS and React Three Fiber.",
+      "⚙️ Applied scalable React patterns like Higher Order Components (HOCs) for cleaner, reusable code.",
+      "📱 Ensured responsive, high-performance design using TailwindCSS, Framer Motion, and Suspense/Preload.",
+      
+    ],
+    boxes: [
+      { title: "React Three Fiber" },
+      { title: "ThreeJS" },
+      { title: "TailwindCSS" },
+      
     ],
   },
 ];
