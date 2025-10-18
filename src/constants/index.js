@@ -226,67 +226,69 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SafeRoute",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "developed a web application that allows users to easily report and view road hazards such as potholes, accidents, and construction areas in real time using Google Maps. The system helps make travel safer by suggesting alternative routes that consider both traffic data and community-reported issues. It also includes an administrative dashboard for the Road Development Authority (RDA) to manage and track reported hazards, monitor trends, and mark issues as resolved. To keep the platform engaging and accurate, users can upload images, comment on reports, receive notifications, and benefit from automatic removal of temporary or outdated hazard reports.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Ballerina",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/BGMPrabuddhi/iwb25-402-mindkraft",
   },
   {
-    name: "Job IT",
+    name: "SalonBooking.lk",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web platform designed to simplify salon appointment booking, rescheduling, and cancellations for customers while enabling secure online payments for added convenience. Salon owners can efficiently manage staff, services, and daily bookings, while the admin panel allows verification of salons, monitoring of platform activity, and handling of user complaints to ensure trust and reliability. Features such as notifications, customer reviews, and location-based salon discovery further enhance the overall user experience and accessibility.",
+
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Stripe",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "orange-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://salonbookinglk.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Aquatica",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An automated aquarium management system that handles essential aquarium care tasks such as feeding, water refilling, and lighting control. The system continuously monitors water parameters like temperature and clarity using sensors to maintain optimal conditions. Its automated feeding mechanism ensures timely and balanced feeding for healthier fish, while the water clarity management feature automatically refills the tank when turbidity levels rise. Additionally, a mobile app integration provides real-time updates on temperature and water conditions, allowing users to conveniently monitor their aquarium anytime.",
     tags: [
       {
-        name: "nextjs",
+        name: "ESP32",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "C++(Arduino)",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    
   },
 ];
 
