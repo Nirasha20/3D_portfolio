@@ -7,17 +7,37 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-5 h-5 rounded-full bg-[#af08ec]' />
+          <div className='w-1 sm:h-80 h-40 bg-gradient-to-b from-[#AF08EC] via-[#D84BFF] to-transparent' />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915EFF]'>Nirasha De Mel</span> </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I’m a passionate Full Stack Developer <br className='sm:block hidden' /> skilled in building dynamic, user-focused web applications. <br className='sm:block hidden' />I specialize in developing responsive frontends and scalable backends using modern technologies to deliver efficient, high-quality solutions. Always eager to learn and innovate in every project I take on.
- </p>
+        <div className="flex-1">
+          <div className="mt-1 sm:mt-0 flex flex-col sm:flex-row items-start gap-6 w-full">
+            {/* Left: ALL text (heading + paragraph) */}
+            <div className="flex-1">
+              <h2 className={`${styles.heroHeadText}`}>
+                Hi, I'm <span className='text-[#af08ec]'>Nirasha De Mel</span>
+              </h2>
+              <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                I’m a passionate Full Stack Developer skilled in building dynamic, <br className='sm:block hidden' />
+                user-focused web applications. I specialize in developing <br className='sm:block hidden' />
+                responsive frontends and scalable backends using modern <br className='sm:block hidden' />
+                technologies to deliver efficient, high-quality solutions. <br className='sm:block hidden' />
+                Always eager to learn and innovate in every project I take on.
+              </p>
+            </div>
+
+            {/* Right: Photo */}
+            <img
+              src="/Me.png"
+              alt="Nirasha"
+              className="mt-4 sm:mt-0 sm:ml-8 w-[clamp(180px,28vw,360px)] aspect-square rounded-full object-cover object-center shadow-xl ring-2 ring-white/20 flex-shrink-0 self-start"
+            />
+          </div>
         </div>
         
+        
       </div>
-      <ComputersCanvas />
+      
     </section>
   )
 }
