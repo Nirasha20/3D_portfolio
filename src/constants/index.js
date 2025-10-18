@@ -33,7 +33,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -121,80 +121,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SafeRoute",
-    company_name: "Road Safety Web Application",
+    title: "University of Moratuwa",
+    company_name: "Faculty of Information Technology",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "2025",
+    date: "2023 - Present",
     points: [
-      "🚗 Developed a web app enabling users to report and view road hazards (e.g., potholes, accidents, construction) with real-time Google Maps integration.",
-      "⚙️ Implemented a robust tech stack using Next.js 14 (TypeScript) for the frontend, Ballerina + PostgreSQL for the backend, and JWT-based authentication for secure access.",
-      "📍 Integrated intelligent route planning that combines traffic data and community-reported hazards to suggest safer travel routes.",
-      "🧭 Built an administrative dashboard for the Road Development Authority (RDA) to manage reports, monitor trends, and mark hazards as resolved.",
-      "🌐 Enhanced user engagement with features like image uploads, report comments, notifications, and auto-deletion of temporary hazard reports.",
+      "3rd Year Undergraduate pursuing a Bachelor of Science in Information Technology.",
+      "Relevant coursework: Data Structures and Algorithms, Database Management Systems, Software Engineering, Web Technologies, Mobile Application Development, Computer Networks, Operating Systems, Artificial Intelligence, and Machine Learning.",
+      "Member of the Rotract Club, participating in community service projects and leadership development activities.",
+      "Playing badminton, competing in university tournaments and fostering teamwork and sportsmanship.",
+      
     ],
-    boxes: [
-      { title: "Next.js" },
-      { title: "Ballerina" },
-      { title: "PostgreSQL" },
-    ],
+    
   },
   {
-    title: "SalonBooking.lk",
-    company_name: "Salon Booking Web Application",
+    title: "Hillwood College Kandy",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "2024 - 2025",
+    date: "2012 - 2019",
     points: [
-      "💇‍♀️Simplifies salon appointment booking, rescheduling, and cancellations for customers.",
-      "💅Helps salon owners manage staff, services, and daily bookings efficiently.",
-      "🛡️Enables admins to verify salons, monitor activity, and handle user complaints for platform reliability.",
-      "🔔Enhances overall user experience through notifications, reviews, and location-based salon discovery.",
+      "G.C.E. Advanced Level (A/L) – 2019",
+      "Stream: Physical Science - Results: Physics  B | Chemistry B | Combined Mathematics B",
+      "G.C.E. Ordinary Level (O/L) – 2016",
+       "Results: 8 A’s and 1 B",
     ],
-    boxes: [
-      { title: "Next.js" },
-      { title: "MongoDB" },
-      { title: "TypeScript" },
-    ],
+    
   },
-  {
-    title: "Aquatica",
-    company_name: "Automated Home Aquarium Management System",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "2023 - 2024",
-    points: [
-      "🐠 Automates essential aquarium care including feeding, water refilling, and lighting control.",
-      "🌡️ Monitors water parameters in real-time using sensors for temperature and clarity.",
-      "🍽️ Automated feeding system ensures timely, balanced feeding for fish health.",
-      "💧 Water clarity management automatically refills the tank when turbidity increases.",
-      "📱 Mobile app integration provides real-time updates on temperature and water conditions for easy monitoring.",
-    ],
-    boxes: [
-      { title: "ESP32" },
-      { title: "C++ (Arduion)" },
-      
-    ],
-  },
-  {
-    title: "Portfolio",
-    company_name: "Personal 3D Portfolio Website",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "2025",
-    points: [
-      "🎨 Learned to create and animate 3D models using ThreeJS and React Three Fiber.",
-      "⚙️ Applied scalable React patterns like Higher Order Components (HOCs) for cleaner, reusable code.",
-      "📱 Ensured responsive, high-performance design using TailwindCSS, Framer Motion, and Suspense/Preload.",
-      
-    ],
-    boxes: [
-      { title: "React Three Fiber" },
-      { title: "ThreeJS" },
-      { title: "TailwindCSS" },
-      
-    ],
-  },
+  
+ 
 ];
 
 const testimonials = [
