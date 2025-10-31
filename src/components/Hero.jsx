@@ -24,6 +24,18 @@ const Hero = () => {
                 technologies to deliver efficient, high-quality solutions. <br className='sm:block hidden' />
                 Always eager to learn and innovate in every project I take on.
               </p>
+
+              {/* Download CV button */}
+              <div className="mt-4">
+                <a
+                  href="/cv/Nirasha-De-Mel-CV.pdf"
+                  download
+                  className="inline-flex items-center gap-2 rounded-lg bg-[#af08ec] hover:bg-[#9a06d2] text-white px-5 py-2 shadow transition-colors"
+                  aria-label="Download CV"
+                >
+                  Download CV
+                </a>
+              </div>
             </div>
 
             {/* Right: Photo */}
