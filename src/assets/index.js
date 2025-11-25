@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import autocare from "./autocare.png";
+import primeplay from "./primeplay.png";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   jobit,
   tripguide,
   autocare,
+  primeplay,
 };
