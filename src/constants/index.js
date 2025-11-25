@@ -23,6 +23,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  autocare,
   threejs,
 } from "../assets";
 
@@ -227,6 +228,29 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://salonbookinglk.vercel.app/",
+  },
+{
+  name: "Autocare",
+  description:
+    "Enterprise Application Development group project — a full-stack Automobile Service Management System built using the MERN stack, featuring real-time communication powered by Socket.IO, secure JWT authentication, role-based dashboards, and fully containerized deployment with Docker. Our system allows customers to book services, track real-time progress, request vehicle modifications, while employees and admins get powerful tools for time logging, workload tracking, and system-wide management.",
+
+  tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: autocare,
+    source_code_link: "https://lnkd.in/gRe6rWMc",
   },
   {
     name: "Aquatica",
