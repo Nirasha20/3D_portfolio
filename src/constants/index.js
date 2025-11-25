@@ -23,6 +23,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  autocare,
+  primeplay,
   threejs,
 } from "../assets";
 
@@ -227,6 +229,54 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://salonbookinglk.vercel.app/",
+  },
+{
+  name: "Autocare",
+  description:
+    "Enterprise Application Development group project — a full-stack Automobile Service Management System built using the MERN stack, featuring real-time communication powered by Socket.IO, secure JWT authentication, role-based dashboards, and fully containerized deployment with Docker. Our system allows customers to book services, track real-time progress, request vehicle modifications, while employees and admins get powerful tools for time logging, workload tracking, and system-wide management.",
+
+  tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: autocare,
+    source_code_link: "https://lnkd.in/gRe6rWMc",
+  },
+  {
+  name: "PrimePlay",
+  description: `A comprehensive sports streaming mobile app I built! 🏆⚽
+This project features live match tracking across multiple sports, real-time score updates, detailed player profiles with career statistics, and a favorites system for personalized content. The app includes advanced search and filtering, dark/light mode support, and seamless data persistence.
+Built with modern mobile development practices focusing on user experience, secure authentication, and responsive design.
+Check out the project and feel free to connect if you're interested in sports tech or mobile app development!`,
+
+  tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: primeplay,
+    source_code_link: "https://github.com/Nirasha20/PrimePlay.git",
   },
   {
     name: "Aquatica",

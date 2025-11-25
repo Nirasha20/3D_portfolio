@@ -28,7 +28,7 @@ const Hero = () => {
               {/* Download CV button */}
               <div className="mt-4">
                 <a
-                  href="/cv/Nirasha-De-Mel-CV.pdf"
+                  href="/cv/Nirasha De Mel.pdf"
                   download
                   className="inline-flex items-center gap-2 rounded-lg bg-[#af08ec] hover:bg-[#9a06d2] text-white px-5 py-2 shadow transition-colors"
                   aria-label="Download CV"
