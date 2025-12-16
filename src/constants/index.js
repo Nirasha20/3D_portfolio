@@ -25,6 +25,7 @@ import {
   tripguide,
   autocare,
   primeplay,
+  ai_chatbot,
   threejs,
 } from "../assets";
 
@@ -277,6 +278,28 @@ Check out the project and feel free to connect if you're interested in sports te
     ],
     image: primeplay,
     source_code_link: "https://github.com/Nirasha20/PrimePlay.git",
+  },
+  {
+  name: "AI-Chatbot",
+  description: `Built a multi-modal AI chatbot platform supporting text, voice, document Q&A, and web-based knowledge retrieval, featuring conversational memory for maintaining short- and long-term context, retrieval-augmented generation (RAG) using FAISS for semantic search, a CLI chatbot for terminal interaction, a Streamlit web UI for chat and voice sessions, speech-to-text and text-to-speech for hands-free interaction, a web-scraping pipeline to ingest and index online content, and a document reader capable of PDF ingestion, summarization, and question-answering over uploaded documents.`,
+
+  tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FAISS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: ai_chatbot,
+    source_code_link: "https://github.com/Nirasha20/AI-Agent.git",
   },
   {
     name: "Aquatica",

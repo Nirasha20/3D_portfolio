@@ -32,6 +32,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import autocare from "./autocare.png";
 import primeplay from "./primeplay.png";
+import ai_chatbot from "./ai_chatbot.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   tripguide,
   autocare,
   primeplay,
+  ai_chatbot,
 };
